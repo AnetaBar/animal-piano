@@ -1,0 +1,56 @@
+.key {
+  display: inline-block;
+  border: 1px solid #FFC300;
+  width: auto;
+  padding: 3px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: all 0.5s;
+  vertical-align: middle;
+  color: white;
+  font-size: 3vh;
+  font-family: 'Raleway', sans-serif;
+  padding-left: 4vh;
+  padding-right: 4vh;
+}
+
+.playing {
+  transform: scale(1.1);
+  border: 5px solid #b8581c;
+}
+
+.inactive {
+  color: grey;
+  border: 1px solid grey;
+}
+
+kbd {
+  display: block;
+}
+
+.row {
+  height: 33%;
+  display: flex;
+  align-items: center;
+}
+
+.piano {
+  height: 70%;
+  vertical-align: middle;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-direction: column;
+}
+
+body, html {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("cat_background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
